@@ -1,5 +1,7 @@
 import React from 'react';
+import './App.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import img from './img/artoro.png';
 
 
 
@@ -24,17 +26,14 @@ class Header extends React.Component {
             <React.Fragment>
             <Navbar bg="light" expand="lg">
               <Navbar.Brand href="/">
-                  <a href="#">
-                      <img src="https://facebook.github.io/react/img/logo.svg" weight="40" height="40"/>
-                        ARToro
-                  </a>
+                      <img id="header-logo" src={img} weight="40" height="80"/>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/projects">Project</Nav.Link>
-                    <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/store">Store</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
                </Navbar.Collapse>
