@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1d0756a.chunk.css",
-    "main.js": "/static/js/main.3da4066d.chunk.js",
-    "main.js.map": "/static/js/main.3da4066d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.69ad199a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.69ad199a.js.map",
-    "static/js/2.4d8713ef.chunk.js": "/static/js/2.4d8713ef.chunk.js",
-    "static/js/2.4d8713ef.chunk.js.map": "/static/js/2.4d8713ef.chunk.js.map",
+    "main.css": "/static/css/main.323f9cd6.chunk.css",
+    "main.js": "/static/js/main.a732374e.chunk.js",
+    "main.js.map": "/static/js/main.a732374e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35e13865.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35e13865.js.map",
+    "static/js/2.8ce6f6da.chunk.js": "/static/js/2.8ce6f6da.chunk.js",
+    "static/js/2.8ce6f6da.chunk.js.map": "/static/js/2.8ce6f6da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.275ad3fb176882cc81e96cfe43306925.js": "/precache-manifest.275ad3fb176882cc81e96cfe43306925.js",
+    "precache-manifest.80e0f4f9922639f4898652be7dd56d04.js": "/precache-manifest.80e0f4f9922639f4898652be7dd56d04.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e1d0756a.chunk.css.map": "/static/css/main.e1d0756a.chunk.css.map",
-    "static/js/2.4d8713ef.chunk.js.LICENSE": "/static/js/2.4d8713ef.chunk.js.LICENSE",
-    "static/media/change_600x300.jpg": "/static/media/change_600x300.23b694ea.jpg",
-    "static/media/facebook.png": "/static/media/facebook.663369ce.png",
-    "static/media/fitness_600x300.jpg": "/static/media/fitness_600x300.b2d7dd73.jpg",
-    "static/media/App.css": "/static/media/work-in-progress_970x450.4f75994c.jpg",
-    "static/media/hollistic_600x300.jpg": "/static/media/hollistic_600x300.5f54a629.jpg",
-    "static/media/linkedin.png": "/static/media/linkedin.8e19f70a.png",
-    "static/media/therapy_600x300.jpg": "/static/media/therapy_600x300.6caee3c4.jpg"
+    "static/css/main.323f9cd6.chunk.css.map": "/static/css/main.323f9cd6.chunk.css.map",
+    "static/js/2.8ce6f6da.chunk.js.LICENSE.txt": "/static/js/2.8ce6f6da.chunk.js.LICENSE.txt",
+    "static/media/artoro.png": "/static/media/artoro.78411913.png",
+    "static/media/instagram.png": "/static/media/instagram.4a8c2347.png",
+    "static/media/lexi.png": "/static/media/lexi.8768826e.png",
+    "static/media/App.css": "/static/media/work-in-progress_970x450.4f75994c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.69ad199a.js",
-    "static/js/2.4d8713ef.chunk.js",
-    "static/css/main.e1d0756a.chunk.css",
-    "static/js/main.3da4066d.chunk.js"
+    "static/js/runtime-main.35e13865.js",
+    "static/js/2.8ce6f6da.chunk.js",
+    "static/css/main.323f9cd6.chunk.css",
+    "static/js/main.a732374e.chunk.js"
   ]
 }
