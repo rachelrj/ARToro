@@ -3,25 +3,9 @@ import './App.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import img from './img/artoro.png';
 
-
-
 class Header extends React.Component {
-    state = {
-
-    }
-
-    componentDidMount() {
-
-    }
-
-    getData() {
-
-    }
-
     render() {
-
         const classes = "header " + this.props.additionalClass;
-
         return (
             <React.Fragment>
             <Navbar bg="light" expand="lg">
@@ -32,9 +16,9 @@ class Header extends React.Component {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <NavDropdown title="Portfolio">
-                        <NavDropdown.Item href="/watercolor">Watercolor</NavDropdown.Item>
-                        <NavDropdown.Item href="/oil">Oil</NavDropdown.Item>
-                        <NavDropdown.Item href="/miscellaneous">Miscellaneous</NavDropdown.Item>
+                        <NavDropdown.Item href="/portfolio/watercolor">Watercolor</NavDropdown.Item>
+                        <NavDropdown.Item href="/portfolio/oil">Oil</NavDropdown.Item>
+                        <NavDropdown.Item href="/portfolio/miscellaneous">Miscellaneous</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/store">Store</Nav.Link>
                     <Nav.Link href="/private-art-instruction">Private Art Instruction</Nav.Link>

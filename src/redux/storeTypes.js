@@ -1,3 +1,5 @@
 export default [
-	"PROJECTS",
+	"WATERCOLOR",
+	"OIL",
+	"MISCELLANEOUS"
 ]

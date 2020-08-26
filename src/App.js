@@ -22,7 +22,10 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' component={Homepage}/>
             <Route path='/projects' component={Project}/>
-            <Route path='/project/:projectNumber' component={Project}/>
+            <Route path='/portfolio/:projectNumber' component={Project}/>
+            <Route path='/portfolio/oil' component={Project}/>
+            <Route path='/portfolio/watercolor' component={Project}/>
+            <Route path='/portfolio/miscellaneous' component={Project}/>
             <Route exact path='/about' component={About}/>
             <Route exact path='/under-construction' component={UnderConstruction}/>
             <Route path='/contact' component={Contact}/>

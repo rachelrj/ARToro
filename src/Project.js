@@ -15,25 +15,42 @@ class Project extends React.Component {
     componentWillMount() {
     }
 
-    getBlogNumberParam() {
+    getArtType() {
         const pathname = this.props.location.pathname;
         const pathNames = pathname.split('/');
         return pathNames[pathNames.length-1];
     }
 
-    getArticleByTitle(title) {
-        // return this.props.projects.filter(obj => {
-        //     return obj.title.replace(/[.,\/#!$%?\^&\*;:{}=\-_`~()]/g,"").split(' ').join('-') == title;
-        // })[0]
+    getArtWorkArray() {
+        const artType = this.getArtType();
+        return this.props[artType];
     }
 
     render() {
-        const projectNumber = this.getBlogNumberParam();
+        const storeArray = this.getArtWorkArray();
+
+        let artPieces = [];
+        storeArray.forEach((art, index) => {
+            console.log(art);
+            artPieces.push(
+                <span key={art.id} className="artSample">
+                    <img className="artPiece" src={art.img}/>
+                    <span className="overlay">
+                        <div className="text">{art.title}</div>
+                        <div className="text">{art.size}</div>
+                        <div className="text">{art.status}</div>
+                    </span>
+                </span>
+            )
+        });
 
         return (
             <Provider store = {store}>
+                <Header additionalClass="main-header"/>
                 <div className="projectPage">
+                    {artPieces}
                 </div>
+                <Footer/>
             </Provider>
         );
     }
@@ -42,7 +59,9 @@ class Project extends React.Component {
 const mapStateToProps = state => {
   const components = getComponents(state);
   return {
-    projects: components.projects
+    oil: components.OIL,
+    watercolor: components.WATERCOLOR,
+    miscellaneous: components.MISCELLANEOUS
   }
 };
 export default connect(mapStateToProps)(Project);

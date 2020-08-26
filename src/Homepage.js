@@ -4,16 +4,12 @@ import Header from './Header';
 import img from './img/lexi.png';
 import { Provider } from 'react-redux';
 import store from "./redux/store";
-import getComponents from "./redux/reducer";
 import {connect} from "react-redux";
 
 class Homepage extends React.Component {
 
     constructor(props) {
         super(props);
-    }
-
-    componentDidMount() {
     }
 
     render() {
@@ -34,10 +30,7 @@ class Homepage extends React.Component {
 }
 
 const mapStateToProps = state => {
-  const components = getComponents(state);
   return {
-    providers: components.PROVIDERS,
-    blogs: components.BLOGS
   }
 };
 export default connect(mapStateToProps)(Homepage);

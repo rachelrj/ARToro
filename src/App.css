@@ -22,14 +22,54 @@ h1 {
         height: 40px;
     }
 }
+.artSample {
+    position: relative;
+}
+.artPiece {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+.overlay {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    font-size: 1.3em;
+    transition: .5s ease;
+}
+.artSample:hover .overlay {
+    opacity: 1;
+}
+.artSample:hover .artPiece {
+    opacity: .5;
+}
 @media (min-width: 0px) {
     #lexi {
         width: 280px
+    }
+    img.artPiece {
+        display: inline;
+        margin: 20px;
+        max-width: 280px;
+        max-height: 280px;
     }
 }
 @media (min-width: 650px) {
     #lexi {
         width: 600px
+    }
+    img.artPiece {
+        display: inline;
+        margin: 20px;
+        max-width: 400px;
+        max-height: 400px;
     }
 }
 @media (min-width: 900px) {
