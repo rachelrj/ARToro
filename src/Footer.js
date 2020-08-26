@@ -1,6 +1,5 @@
 import React from 'react';
-import fb from "./img/facebook.png";
-import linkedin from "./img/linkedin.png";
+import email from "./img/email.png";
 import insta from "./img/instagram.png";
 
 class Footer extends React.Component {
@@ -27,13 +26,14 @@ class Footer extends React.Component {
                 </span>
                 <span id="right">
                      <span>
-                        <img src={fb}/>
+                         <a href="mailto:toro4art@gmail.com?subject=Regarding Artwork by Lexi Toro">
+                            <img src={email}/>
+                         </a>
                     </span>
                     <span>
-                        <img src={linkedin}/>
-                    </span>
-                    <span>
-                        <img src={insta}/>
+                        <a href="https://www.instagram.com/toro4art/" target="_blank">
+                            <img src={insta}/>
+                        </a>
                     </span>
                 </span>
             </div>

@@ -48,12 +48,19 @@ h1 {
     margin-left: auto!important;
 }
 form {
-    max-width: 600px;
+    width: 600px;
+    max-width: 70%;
     margin: auto;
 }
-#formBasicText {
-    height: 200px;
+
+form input, form textarea {
+    margin-bottom: 5px;
+    margin-top: 25px;
 }
+form button {
+    margin-bottom: 30px
+}
+
 p {
     text-align: left;
 }

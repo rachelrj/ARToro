@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import img from './img/artoro.png';
 
 
@@ -31,9 +31,13 @@ class Header extends React.Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <NavDropdown title="Portfolio">
+                        <NavDropdown.Item href="/watercolor">Watercolor</NavDropdown.Item>
+                        <NavDropdown.Item href="/oil">Oil</NavDropdown.Item>
+                        <NavDropdown.Item href="/miscellaneous">Miscellaneous</NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Link href="/store">Store</Nav.Link>
-                    <Nav.Link href="/">Private Art Instruction</Nav.Link>
+                    <Nav.Link href="/private-art-instruction">Private Art Instruction</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
                </Navbar.Collapse>

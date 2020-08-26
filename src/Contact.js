@@ -4,8 +4,7 @@ import Header from './Header';
 import { Provider, connect } from 'react-redux';
 import store from "./redux/store";
 import getComponents from "./redux/reducer";
-import DOMPurify from 'dompurify';
-import STORETYPES from './redux/storeTypes';
+import { Form, Button } from 'react-bootstrap';
 
 class Contact extends React.Component {
 
@@ -15,12 +14,6 @@ class Contact extends React.Component {
     componentWillMount() {
     }
 
-    getBlogNumberParam() {
-        const pathname = this.props.location.pathname;
-        const pathNames = pathname.split('/');
-        return pathNames[pathNames.length-1];
-    }
-
     getArticleByTitle(title) {
         // return this.props.projects.filter(obj => {
         //     return obj.title.replace(/[.,\/#!$%?\^&\*;:{}=\-_`~()]/g,"").split(' ').join('-') == title;
@@ -28,12 +21,27 @@ class Contact extends React.Component {
     }
 
     render() {
-        const projectNumber = this.getBlogNumberParam();
 
         return (
             <Provider store = {store}>
-            <div className="contactPage">
-            </div>
+                <Header additionalClass="main-header"/>
+                <div className="contactPage">
+                    <h1>Write to Me</h1>
+                    <Form>
+                        <Form.Group controlId="formBasicContact">
+                            <Form.Control type="text" placeholder="Your name" />
+                            <Form.Control type="email" placeholder="Your email" />
+                            <Form.Text className="text-muted">
+                                I'll never share your email with anyone else.
+                            </Form.Text>
+                            <Form.Control as="textarea" rows="5" type="text" placeholder="Your message" />
+                        </Form.Group>
+                        <Button variant="primary" type="submit">
+                            Submit
+                        </Button>
+                    </Form>
+                </div>
+                <Footer/>
             </Provider>
     );
     }
