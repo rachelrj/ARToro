@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import img from './img/artoro.png';
+import img from './img/art-toro-logo.png';
 
 class Header extends React.Component {
     render() {

@@ -21,7 +21,7 @@ class Footer extends React.Component {
             <div className="footer">
                 <span id="left">
                     <span>
-                        © 2020 by ARToro
+                        © 2020 by toro4art
                     </span>
                 </span>
                 <span id="right">
