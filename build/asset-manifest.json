@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d8494dd.chunk.css",
-    "main.js": "/static/js/main.0df3491e.chunk.js",
-    "main.js.map": "/static/js/main.0df3491e.chunk.js.map",
+    "main.css": "/static/css/main.7c66b41b.chunk.css",
+    "main.js": "/static/js/main.a0289a8e.chunk.js",
+    "main.js.map": "/static/js/main.a0289a8e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35e13865.js",
     "runtime-main.js.map": "/static/js/runtime-main.35e13865.js.map",
     "static/js/2.febc4f8c.chunk.js": "/static/js/2.febc4f8c.chunk.js",
     "static/js/2.febc4f8c.chunk.js.map": "/static/js/2.febc4f8c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a338bd8438e53cc8e90ac2b1d26e23c2.js": "/precache-manifest.a338bd8438e53cc8e90ac2b1d26e23c2.js",
+    "precache-manifest.88c68e199d81d942631b0f10ee0614a1.js": "/precache-manifest.88c68e199d81d942631b0f10ee0614a1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5d8494dd.chunk.css.map": "/static/css/main.5d8494dd.chunk.css.map",
+    "static/css/main.7c66b41b.chunk.css.map": "/static/css/main.7c66b41b.chunk.css.map",
     "static/js/2.febc4f8c.chunk.js.LICENSE.txt": "/static/js/2.febc4f8c.chunk.js.LICENSE.txt",
-    "static/media/artoro.png": "/static/media/artoro.78411913.png",
+    "static/media/art-toro-logo.png": "/static/media/art-toro-logo.eb7ec973.png",
     "static/media/email.png": "/static/media/email.415199ea.png",
     "static/media/instagram.png": "/static/media/instagram.4a8c2347.png",
     "static/media/lexi.png": "/static/media/lexi.8768826e.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.35e13865.js",
     "static/js/2.febc4f8c.chunk.js",
-    "static/css/main.5d8494dd.chunk.css",
-    "static/js/main.0df3491e.chunk.js"
+    "static/css/main.7c66b41b.chunk.css",
+    "static/js/main.a0289a8e.chunk.js"
   ]
 }
