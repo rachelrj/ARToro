@@ -16,11 +16,11 @@ class Header extends React.Component {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <NavDropdown title="Portfolio">
+                        <NavDropdown.Item href="/portfolio/commissions">Commissions</NavDropdown.Item>
                         <NavDropdown.Item href="/portfolio/watercolor">Watercolor</NavDropdown.Item>
                         <NavDropdown.Item href="/portfolio/oil">Oil</NavDropdown.Item>
                         <NavDropdown.Item href="/portfolio/miscellaneous">Miscellaneous</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="/store">Store</Nav.Link>
                     <Nav.Link href="/private-art-instruction">Private Art Instruction</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>

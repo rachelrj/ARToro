@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c66b41b.chunk.css",
-    "main.js": "/static/js/main.a0289a8e.chunk.js",
-    "main.js.map": "/static/js/main.a0289a8e.chunk.js.map",
+    "main.css": "/static/css/main.fdf85d89.chunk.css",
+    "main.js": "/static/js/main.2d6acef7.chunk.js",
+    "main.js.map": "/static/js/main.2d6acef7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35e13865.js",
     "runtime-main.js.map": "/static/js/runtime-main.35e13865.js.map",
     "static/js/2.febc4f8c.chunk.js": "/static/js/2.febc4f8c.chunk.js",
     "static/js/2.febc4f8c.chunk.js.map": "/static/js/2.febc4f8c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.88c68e199d81d942631b0f10ee0614a1.js": "/precache-manifest.88c68e199d81d942631b0f10ee0614a1.js",
+    "precache-manifest.8e6f6cc2d418cb29957a351a361faad9.js": "/precache-manifest.8e6f6cc2d418cb29957a351a361faad9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7c66b41b.chunk.css.map": "/static/css/main.7c66b41b.chunk.css.map",
+    "static/css/main.fdf85d89.chunk.css.map": "/static/css/main.fdf85d89.chunk.css.map",
     "static/js/2.febc4f8c.chunk.js.LICENSE.txt": "/static/js/2.febc4f8c.chunk.js.LICENSE.txt",
     "static/media/art-toro-logo.png": "/static/media/art-toro-logo.eb7ec973.png",
     "static/media/email.png": "/static/media/email.415199ea.png",
-    "static/media/instagram.png": "/static/media/instagram.4a8c2347.png",
-    "static/media/lexi.png": "/static/media/lexi.8768826e.png",
-    "static/media/App.css": "/static/media/work-in-progress_970x450.4f75994c.jpg"
+    "static/media/lexi.png": "/static/media/lexi.8768826e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.35e13865.js",
     "static/js/2.febc4f8c.chunk.js",
-    "static/css/main.7c66b41b.chunk.css",
-    "static/js/main.a0289a8e.chunk.js"
+    "static/css/main.fdf85d89.chunk.css",
+    "static/js/main.2d6acef7.chunk.js"
   ]
 }

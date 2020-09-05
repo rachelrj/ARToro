@@ -30,10 +30,11 @@ class Project extends React.Component {
         const storeArray = this.getArtWorkArray();
 
         let artPieces = [];
-        storeArray.forEach((art, index) => {
-            console.log(art);
-            artPieces.push(
-                <span key={art.id} className="artSample">
+        if (storeArray && storeArray.length) {
+            storeArray.forEach((art, index) => {
+                console.log(art);
+                artPieces.push(
+                    <span key={art.id} className="artSample">
                     <img className="artPiece" src={art.img}/>
                     <span className="overlay">
                         <div className="text">{art.title}</div>
@@ -41,8 +42,9 @@ class Project extends React.Component {
                         <div className="text">{art.status}</div>
                     </span>
                 </span>
-            )
-        });
+                )
+            });
+        }
 
         return (
             <Provider store = {store}>
@@ -59,6 +61,7 @@ class Project extends React.Component {
 const mapStateToProps = state => {
   const components = getComponents(state);
   return {
+    commissions: components.COMMISSIONS,
     oil: components.OIL,
     watercolor: components.WATERCOLOR,
     miscellaneous: components.MISCELLANEOUS

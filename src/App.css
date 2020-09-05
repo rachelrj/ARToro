@@ -77,6 +77,9 @@ h1 {
         padding-right: 2rem;
         padding-left: 2rem;
     }
+    #header-logo {
+        padding-left: 80px;
+    }
 }
 @media (min-width: 1200px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -139,30 +142,6 @@ hr {
 }
 .footer img {
     height: 40px;
-}
-@media (min-width: 1000px) {
-    div.headerUnderConstruction {
-        background-image: url(./img/work-in-progress_970x450.jpg);
-        background-size: 970px 450px;
-        width: 970px;
-        height: 450px;
-    }
-}
-@media (max-width: 1000px) {
-    div.headerUnderConstruction {
-        width: 728px;
-        height: 338px;
-        background-image: url(./img/work-in-progress_728x338.jpg);
-        background-size: 728px 338px;
-    }
-}
-@media (max-width: 800px) {
-    div.headerUnderConstruction {
-        width: 320px;
-        height: 149px;
-        background-image: url(./img/work-in-progress_320x149.jpg);
-        background-size: 320px 149px;
-    }
 }
 @media (max-width: 400px) {
     .footer {

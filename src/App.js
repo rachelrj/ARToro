@@ -23,6 +23,7 @@ class App extends React.Component {
             <Route exact path='/' component={Homepage}/>
             <Route path='/projects' component={Project}/>
             <Route path='/portfolio/:projectNumber' component={Project}/>
+            <Route path='/portfolio/commissions' component={Project}/>
             <Route path='/portfolio/oil' component={Project}/>
             <Route path='/portfolio/watercolor' component={Project}/>
             <Route path='/portfolio/miscellaneous' component={Project}/>
