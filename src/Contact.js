@@ -31,7 +31,7 @@ class Contact extends React.Component {
                         <Form.Group controlId="formBasicContact">
                             <Form.Control type="text" placeholder="Your name" />
                             <Form.Control type="email" placeholder="Your email" />
-                            <Form.Text className="text-muted">
+                            <Form.Text>
                                 I'll never share your email with anyone else.
                             </Form.Text>
                             <Form.Control as="textarea" rows="5" type="text" placeholder="Your message" />

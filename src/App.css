@@ -1,6 +1,56 @@
+@font-face {
+    font-family: 'Claudia';
+    src: url('claudia-script.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Futura Book';
+    src: url('Futura-Book-Regular.otf')  format("opentype");
+}
 .App {
     text-align: center;
-    font-family: Futura, Arial, Helvetica, sans-serif;
+    font-family: 'Claudia', Futura, Arial, Helvetica, sans-serif;
+}
+input, textarea, button, .overlay, .footer {
+    font-family: 'Futura Book', sans-serif;
+}
+.btn-primary  {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.form-text {
+    font-size: 1.2em;
+}
+#charity-support-footer-mobile {
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;
+}
+#pop {
+    height: 120px;
+    float: right;
+}
+#popl {
+    display: inline-block;
+    float:  left;
+    width: 150px;
+    padding: 0;
+    padding-right: 25px;
+    font-family: 'Claudia', Futura, Arial, Helvetica, sans-serif;
+}
+#popl a {
+    text-decoration: none;
+}
+nav {
+    /*background: #425447;*/
+    -webkit-box-shadow: 0 8px 6px -6px LightGrey;
+    -moz-box-shadow: 0 8px 6px -6px LightGrey;
+    box-shadow: 0 10px 8px -8px LightGrey;
+    font-family: 'Futura Book', sans-serif;
+}
+#footer-top {
+    width: 100%;
+    height: 50px;
 }
 .navbar-nav {
     font-size: 1.5em;
@@ -54,43 +104,6 @@ body {
 .artSample:hover .artPiece {
     opacity: .5;
 }
-@media (min-width: 0px) {
-    #lexi {
-        width: 280px
-    }
-    img.artPiece {
-        display: inline;
-        margin: 20px;
-        max-width: 280px;
-        max-height: 280px;
-    }
-}
-@media (min-width: 650px) {
-    #lexi {
-        width: 600px
-    }
-    img.artPiece {
-        display: inline;
-        margin: 20px;
-        max-width: 400px;
-        max-height: 400px;
-    }
-}
-@media (min-width: 900px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-    #header-logo {
-        padding-left: 80px;
-    }
-}
-@media (min-width: 1200px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 4rem;
-        padding-left: 4rem;
-    }
-}
 .mr-auto, .mx-auto {
     margin-left: auto!important;
 }
@@ -117,9 +130,6 @@ p {
 #right {
     float: right;
 }
-h1 {
-    font-family: Didot;
-}
 h2 {
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
@@ -133,7 +143,7 @@ hr {
     margin-right: 20px;
 }
 .footer {
-    height: 100px;
+    height: 250px;
     background-color: #f8f9fa;
     display: block;
     clear: both;
@@ -147,7 +157,7 @@ hr {
 .footer img {
     height: 40px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .footer {
         padding-left: 10px;
         padding-right: 10px;
@@ -160,7 +170,60 @@ hr {
         padding-right: 5px;
     }
 }
+@media (min-width: 0px) {
+    #lexi {
+        width: 280px
+    }
+    img.artPiece {
+        display: inline;
+        margin: 20px;
+        max-width: 280px;
+        max-height: 280px;
+    }
+    #charity-support-footer-desktop {
+        display: none;
+    }
+    #charity-support-footer-mobile {
+        display: inline-block;
+    }
 
+}
+@media (min-width: 650px) {
+    #lexi {
+        width: 600px
+    }
+    img.artPiece {
+        display: inline;
+        margin: 20px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+    #charity-support-footer-mobile {
+        display: none;
+    }
+    #charity-support-footer-desktop {
+        display: inline-block;
+    }
+    .footer span {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media (min-width: 900px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    #header-logo {
+        padding-left: 80px;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
 /* START loading icon css taken from https://loading.io/css/ */
 .lds-circle {
     display: inline-block;
