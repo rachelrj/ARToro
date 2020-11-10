@@ -8,10 +8,10 @@
 }
 .App {
     text-align: center;
-    font-family: 'Claudia', Futura, Arial, Helvetica, sans-serif;
+    font-family: 'Futura Book', sans-serif;
 }
 #contact-content {
-    font-family: 'Claudia', Futura, Arial, Helvetica, sans-serif;
+    font-family: 'Futura Book', sans-serif;
 }
 input, textarea, button, .overlay, .footer {
     font-family: 'Futura Book', sans-serif;
@@ -39,7 +39,7 @@ input, textarea, button, .overlay, .footer {
     width: 150px;
     padding: 0;
     padding-right: 25px;
-    font-family: 'Claudia', Futura, Arial, Helvetica, sans-serif;
+    font-family: 'Futura Book', sans-serif;
 }
 #contact-content {
     font-family: 'Futura Book', sans-serif;
@@ -70,12 +70,57 @@ h1 {
     margin: 100px;
     font-size: 1.2em;
 }
+#instruction-content {
+    font-size: 1.2em;
+    margin: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#instruction-content p {
+    margin-top: 70px;
+    text-align: center;
+}
+.instruction {
+    display: inline-block;
+    width: 45%;
+    margin: auto;
+}
+#instruction-photo-note {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 25px;
+    display: block;
+    font-size: .8em;
+}
+#overflow {
+    overflow: auto;
+    margin-top: 25px;
+}
 @media (max-width: 500px) {
     #homepage-content, #contact-content {
         margin: 40px;
     }
     #header-logo {
         height: 40px;
+    }
+    .instruction {
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
+    #instruction-content img {
+        max-width: 250px;
+    }
+    #instruction-content p {
+        margin-top: 40px;
+    }
+    #instruction-content {
+        font-size: 1em;
+        margin: 25px;
+    }
+    #instruction-photo-note {
+        width: 75%;
     }
 }
 body {
@@ -177,8 +222,10 @@ hr {
     }
 }
 @media (min-width: 0px) {
-    #lexi {
-        width: 280px
+    .lexi {
+        height: 150px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     img.artPiece {
         display: inline;
@@ -195,8 +242,10 @@ hr {
 
 }
 @media (min-width: 650px) {
-    #lexi {
-        width: 600px
+    .lexi {
+        height: 400px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     img.artPiece {
         display: inline;
