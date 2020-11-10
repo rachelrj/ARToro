@@ -112,13 +112,16 @@ h1 {
     #header-logo {
         height: 40px;
     }
-    .instruction {
+}
+@media (max-width: 600px) {
+        .instruction {
         display: block;
         width: 95%;
         margin: auto;
     }
     #instruction-content img {
         max-width: 250px;
+        max-width: 90%;
     }
     #instruction-content p {
         margin-top: 40px;
