@@ -6,6 +6,9 @@ import store from "./redux/store";
 import {connect} from "react-redux";
 import img from './img/lexi3.jpg';
 import img2 from './img/children-students-painting-instruction.jpg';
+import img3 from './img/student-sample-1.jpg';
+import img4 from './img/student-sample-2.jpg';
+import img5 from './img/with-student.jpg';
 
 class Instruction extends React.Component {
 
@@ -30,6 +33,19 @@ class Instruction extends React.Component {
                     <p class="instruction" id="left">There are many advantages to private art tutoring. Art making has therapeutic benefits and promotes mental health and well being. Private art tutoring also can improve a portfolio for an art school application. Private art tutoring can also be a way to create a sentimental and personalized gift for a loved one.  I  will work with you to address your specific needs and create an individualized plan to pursue you or your child’s goals as an artist. </p>
                     </div>
                 </div>
+                <h2>Student Highlights</h2>
+                        <span class="student-work">
+                            <img src={img3}/>
+                            <span id="instruction-photo-note">Artwork done by a student of mine. The assignment was to transform pencils into an animal of your choice</span>
+                        </span>
+                        <span class="student-work">
+                            <img src={img4}/>
+                            <span id="instruction-photo-note">Artwork done by a student of mine. The students "relaxed and kicked their shoes off" and drew pictures in graphite</span>
+                        </span>
+                        <span class="student-work">
+                            <img src={img5}/>
+                            <span id="instruction-photo-note">Me with an art student in Bronx, New York</span>
+                        </span>
                 <Footer/>
             </Provider>
         );

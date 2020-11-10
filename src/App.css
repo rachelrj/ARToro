@@ -40,6 +40,7 @@ input, textarea, button, .overlay, .footer {
     padding: 0;
     padding-right: 25px;
     font-family: 'Futura Book', sans-serif;
+    font-size: .8em;
 }
 #contact-content {
     font-family: 'Futura Book', sans-serif;
@@ -91,11 +92,18 @@ h1 {
     text-align: center;
     margin-bottom: 25px;
     display: block;
-    font-size: .8em;
+    font-size: .9em;
 }
 #overflow {
     overflow: auto;
     margin-top: 25px;
+}
+.student-work {
+    display: inline-block;
+    padding: 20px;
+}
+.student-work img {
+    max-width: 80%;
 }
 @media (max-width: 500px) {
     #homepage-content, #contact-content {
