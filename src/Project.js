@@ -4,7 +4,6 @@ import Header from './Header';
 import { Provider, connect } from 'react-redux';
 import store from "./redux/store";
 import getComponents from "./redux/reducer";
-import DOMPurify from 'dompurify'; 
 import STORETYPES from './redux/storeTypes';
 
 class Project extends React.Component {
