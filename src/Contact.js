@@ -94,7 +94,7 @@ class Contact extends React.Component {
                             <Form.Text>
                                 I'll never share your email with anyone else.
                             </Form.Text>
-                            <Form.Control required as="textarea" rows="5" type="text" placeholder="Your message" onChange={this.handleMessageChange} />
+                            <Form.Control required as="textarea" rows="5" type="text" placeholder="Your message to me about a commission or private art instruction. This is not the place to complain about the absence of guac on your burrito :)" onChange={this.handleMessageChange} />
                             <Form.Control.Feedback type="invalid">
                                 Please provide a message regarding your inquiry.
                             </Form.Control.Feedback>

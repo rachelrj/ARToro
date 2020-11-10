@@ -18,8 +18,8 @@ class Homepage extends React.Component {
                 <img class="lexi" src={img}/>
                 <img class="lexi" src={img2}/>
                 <div id="homepage-content">
-                <p>Cupcake ipsum dolor sit amet. Tootsie roll fruitcake pie fruitcake chocolate cake carrot cake ice cream marzipan. Jelly beans cheesecake tart danish bear claw soufflé bear claw pudding chocolate bar. Donut bear claw chupa chups marzipan sugar plum donut.</p>
-                <p>Candy lemon drops croissant danish jelly beans. Lollipop soufflé muffin sesame snaps bonbon chocolate bar jelly-o chocolate cake. Liquorice cookie chocolate marzipan. Cookie candy brownie sesame snaps.</p>
+                <p>Hello there and thank you for visiting my website!</p>
+                <p>I am Alexis and I love creating and teaching art. I am an Art Teacher at a local high school in Boulder, Colorado. Born and raised in Gainesville, Florida, I moved to the mountains a few years ago following my passion for the outdoors. I enjoy plein air painting the beautiful scenery while my boyfriend, Matt,  goes fly fishing in alpine lakes. Most of my watercolor paintings are plein air which means they were painted from life. Additionally, the water I use is scooped from whichever lake or river I am painting that day. When I am not outside creating watercolor works of art, I enjoy painting animals and other subjects in oil. My inspiration comes from my love of animals. I rescued my best friend Iggy from Plenty of Pitbulls in Gainesville, Florida in 2017. We are inseparable. I enjoy donating works of art to Plenty of Pitbulls whenever I can. I also love riding horses at Wildsong Ranch in Longmont, Colorado in my free time.</p>
                 </div>
                 <Footer/>
             </Provider>
