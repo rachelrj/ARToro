@@ -16,17 +16,25 @@ class Contact extends React.Component {
             message: '',
             name: '',
             isLoading: false,
+            hasSent: false,
+            hasError: false,
         };
 
         this.handleNameChange = this.handleNameChange.bind(this);
         this.handleEmailChange = this.handleEmailChange.bind(this);
         this.handleMessageChange = this.handleMessageChange.bind(this);
+        this.handleEmailSent = this.handleEmailSent.bind(this);
         this.sendEmail = this.sendEmail.bind(this);
+        this.hasError = this.hasError.bind(this);
     }
 
-    // componentDidMount() {
-    //     this.refs.form.onsubmit = () => this.sendEmail();
-    // }
+    handleEmailSent() {
+        this.setState({hasSent: true});
+    }
+
+    hasError() {
+        this.setState({hasError: true});
+    }
 
     handleNameChange(event) {
         this.setState({name: event.target.value});
@@ -57,22 +65,12 @@ class Contact extends React.Component {
             },
             json: true
         };
-        return rp(options).then(() => {
-                // this.setState({isLoading: false});
-          }).catch(function (err) {
-        });
+        return rp(options).then(function (response) {
+            this.handleEmailSent();
+        }.bind(this)).catch(function (response) {
+            this.hasError();
+        }.bind(this));
     }
-
-    // useEffect(() => {
-    //     if (isLoading) {
-    //       sendEmail().then(() => {
-    //             this.setState({isLoading: false});
-    //       }).catch(function (err) {
-    //       });
-    //     }
-    // }, [isLoading]); sendEmail
-
-    // const handleClick = () => this.setState({isLoading: true});
 
     render() {
 
@@ -80,20 +78,50 @@ class Contact extends React.Component {
             <Provider store = {store}>
                 <Header additionalClass="main-header"/>
                 <div className="contactPage">
+                {!this.state.hasSent && !this.state.hasError &&
+                    <>
                     <h1>Write to Me</h1>
                     <Form>
                         <Form.Group controlId="formBasicContact">
-                            <Form.Control type="text" placeholder="Your name" onChange={this.handleNameChange} />
-                            <Form.Control type="email" placeholder="Your email" onChange={this.handleEmailChange} />
+                            <Form.Control required type="text" placeholder="Your name" onChange={this.handleNameChange} />
+                            <Form.Control.Feedback type="invalid">
+                                Please provide your name.
+                            </Form.Control.Feedback>
+                            <Form.Control required type="email" placeholder="Your email" onChange={this.handleEmailChange} />
+                            <Form.Control.Feedback type="invalid">
+                                Please provide your email so that I can respond to you!
+                            </Form.Control.Feedback>
                             <Form.Text>
                                 I'll never share your email with anyone else.
                             </Form.Text>
-                            <Form.Control as="textarea" rows="5" type="text" placeholder="Your message" onChange={this.handleMessageChange} />
+                            <Form.Control required as="textarea" rows="5" type="text" placeholder="Your message" onChange={this.handleMessageChange} />
+                            <Form.Control.Feedback type="invalid">
+                                Please provide a message regarding your inquiry.
+                            </Form.Control.Feedback>
                         </Form.Group>
                         <Button variant="primary" onClick={this.sendEmail}>
                             Submit
                         </Button>
                     </Form>
+                    </>
+                }
+                {this.state.hasSent && !this.state.hasError &&
+                    <>
+                    <h1>Thank You!</h1>
+                    <div id="contact-content">
+                        <p>I appreciate that you’ve taken the time to write me. I will get back to you as soon as possible, usually within a few days. I will respond to you through my business gmail using the email address you just provided.</p>
+                         <p>While you are waiting ever so patiently for my reply, take a look at my <a href="https://www.instagram.com/toro4art/" target="_blank">Instagram page</a> to see more examples I have done for others in the past. I plan to share some fun highlights of my teaching very soon!</p>
+                    </div>
+                    </>
+                }
+                {this.state.hasError &&
+                    <>
+                    <h1>Whoops!</h1>
+                    <div id="contact-content">
+                        <p>I am sorry. There was an error trying to send your message. My web developer has been notified of the issue and this will be fixed soon.</p>
+                    </div>
+                    </>
+                }
                 </div>
                 <Footer/>
             </Provider>
