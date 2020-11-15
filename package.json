@@ -21,7 +21,7 @@
     "react-scripts": "^4.0.0"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "REACT_APP_STAGE=prod react-scripts build && node server/server.js",
     "start-dev": "REACT_APP_STAGE=dev react-scripts start",
     "build": "REACT_APP_STAGE=prod react-scripts build",
     "test": "react-scripts test",

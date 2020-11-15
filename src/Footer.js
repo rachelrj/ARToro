@@ -47,7 +47,7 @@ class Footer extends React.Component {
                 </div>
                 <div id="charity-support-footer-mobile">
                     <span id="popl">
-                        toro4art prouldy supports <a href="http://popb.org/" target="_blank">Plenty of Pitbulls Organization</a>
+                        toro4art proudly supports <a href="http://popb.org/" target="_blank">Plenty of Pitbulls Organization</a>
                     </span>
                     <a href="http://popb.org/" target="_blank"><img id="pop" src={pop}/></a>
                 </div>
