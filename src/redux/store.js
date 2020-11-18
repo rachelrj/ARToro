@@ -42,7 +42,7 @@ initialState[STORETYPES[0]] = [{
 }];
 initialState[STORETYPES[1]] = [{
     'id': 1,
-    'title': 'Brainless Lake',
+    'title': 'Brainard Lake',
     'img': '../img/watercolor-donation.jpg',
     'size': 'Donation to Plenty of',
     'status': 'Pitbulls Auction'

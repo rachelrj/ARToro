@@ -16,6 +16,12 @@
 input, textarea, button, .overlay, .footer {
     font-family: 'Futura Book', sans-serif;
 }
+#checkout-instagram {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 1.4em;
+}
 .btn-primary  {
     color: #fff;
     background-color: black;

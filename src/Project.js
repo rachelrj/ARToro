@@ -31,7 +31,6 @@ class Project extends React.Component {
         let artPieces = [];
         if (storeArray && storeArray.length) {
             storeArray.forEach((art, index) => {
-                console.log(art);
                 artPieces.push(
                     <span key={art.id} className="artSample">
                     <img className="artPiece" src={art.img}/>
@@ -51,6 +50,7 @@ class Project extends React.Component {
                 <div className="projectPage">
                     {artPieces}
                 </div>
+                <p id="checkout-instagram">Check out more art at <a href="https://www.instagram.com/toro4art/" target="_blank">@Toro4art on Instagram</a></p>
                 <Footer/>
             </Provider>
         );
