@@ -52,7 +52,13 @@ initialState[STORETYPES[1]] = [{
     'img': '../img/watercolor-1.jpg',
     'size': '',
     'status': 'Sold'
-}];
+},{
+    'id': 3,
+    'title': 'Elk Creek',
+    'img': '../img/watercolor-2.jpg',
+    'size': '8x10',
+    'status': 'Sold'
+}, ];
 initialState[STORETYPES[2]] = [{
     'id': 1,
     'title': 'Ziggy the Piggy',

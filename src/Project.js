@@ -60,7 +60,6 @@ class Project extends React.Component {
 const mapStateToProps = state => {
   const components = getComponents(state);
   return {
-    commissions: components.COMMISSIONS,
     oil: components.OIL,
     watercolor: components.WATERCOLOR,
     miscellaneous: components.MISCELLANEOUS
