@@ -57,8 +57,7 @@ async function sendEmail(name, emailAddress, message) {
 
   let info = await transporter.sendMail({
     from: emailAddress,
-    // to: "Toro4art@gmail.com",
-    to: "rachelrj29@gmail.com",
+    to: "toro4art@gmail.com",
     subject: "A message from " + name + " on ARToro website",
     text: message + "\n\n reply to " + emailAddress,
   });

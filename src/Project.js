@@ -20,13 +20,24 @@ class Project extends React.Component {
         return pathNames[pathNames.length-1];
     }
 
+    titleCase(str) {
+        str = str.toLowerCase().split(' ');
+        for (var i = 0; i < str.length; i++) {
+            str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+        }
+        return str.join(' ');
+    }
+
     getArtWorkArray() {
         const artType = this.getArtType();
+        console.log(this.props[artType])
+        console.log(artType);
         return this.props[artType];
     }
 
     render() {
         const storeArray = this.getArtWorkArray();
+        const artTitle = this.titleCase(this.getArtType());
 
         let artPieces = [];
         if (storeArray && storeArray.length) {
@@ -47,6 +58,7 @@ class Project extends React.Component {
         return (
             <Provider store = {store}>
                 <Header additionalClass="main-header"/>
+                <h1>{artTitle}</h1>
                 <div className="projectPage">
                     {artPieces}
                 </div>

@@ -12,19 +12,19 @@ let initialState = {};
 initialState[STORETYPES[0]] = [{
     'id': 1,
     'title': 'Ziggy the Piggy',
-    'img': '../img/ziggy-the-piggy-oil-painting.jpg',
+    'img': '../img/ziggy-the-piggy-oil.png',
     'size': '8x10 Oval Canvas',
     'status': 'Sold'
 }, {
     'id': 2,
     'title': 'Landscape',
-    'img': '../img/oil-painting-1.jpg',
+    'img': '../img/oil-painting-1.png',
     'size': '18x24 Inches',
     'status': 'Sold'
 },{
     'id': 3,
     'title': 'Cinnamon',
-    'img': '../img/cinnamon-oil-painting.jpg',
+    'img': '../img/cinnamon-oil.png',
     'size': '',
     'status': 'Sold'
 },{
@@ -36,45 +36,51 @@ initialState[STORETYPES[0]] = [{
 }, {
     'id': 5,
     'title': "Long's peak from Longmont",
-    'img': '../img/watercolor-1.jpg',
+    'img': '../img/watercolor-painting-2.png',
     'size': '',
     'status': 'Sold'
 }];
 initialState[STORETYPES[1]] = [{
-    'id': 1,
+    'id': 2,
     'title': 'Brainard Lake',
-    'img': '../img/watercolor-donation.jpg',
+    'img': '../img/watercolor-donation.png',
     'size': 'Donation to Plenty of',
     'status': 'Pitbulls Auction'
-}, {
-    'id': 2,
-    'title': "Long's peak from Longmont",
-    'img': '../img/watercolor-1.jpg',
-    'size': '',
+},{
+    'id': 3,
+    'title': 'Elk Mountain',
+    'img': '../img/watercolor-painting-1.png',
+    'size': '8x10',
     'status': 'Sold'
 },{
     'id': 3,
-    'title': 'Elk Creek',
-    'img': '../img/watercolor-2.jpg',
-    'size': '8x10',
+    'title': 'Waterlogged',
+    'img': '../img/watercolor-painting-3.png',
+    'size': '6x12',
     'status': 'Sold'
-}, ];
+},{
+    'id': 1,
+    'title': "Long's peak from Longmont",
+    'img': '../img/watercolor-painting-2.jpg',
+    'size': '',
+    'status': 'Sold'
+}];
 initialState[STORETYPES[2]] = [{
     'id': 1,
     'title': 'Ziggy the Piggy',
-    'img': '../img/ziggy-the-piggy-oil-painting.jpg',
+    'img': '../img/ziggy-the-piggy-oil.png',
     'size': '8x10 Oval Canvas',
     'status': 'Sold'
 }, {
     'id': 2,
     'title': 'Landscape',
-    'img': '../img/oil-painting-1.jpg',
-    'size': '',
+    'img': '../img/oil-painting-1.png',
+    'size': '18x24',
     'status': 'Sold'
 },{
     'id': 3,
     'title': 'Cinnamon',
-    'img': '../img/cinnamon-oil-painting.jpg',
+    'img': '../img/cinnamon-oil.png',
     'size': '',
     'status': 'Sold'
 }];

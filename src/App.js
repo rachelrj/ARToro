@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Homepage from './Homepage';
 import Project from './Project';
-import About from './About';
 import Instruction from './Instruction';
 import Contact from './Contact';
 import UnderConstruction from './UnderConstruction';
@@ -28,7 +27,6 @@ class App extends React.Component {
             <Route path='/commissions/watercolor' component={Project}/>
             <Route path='/commissions/miscellaneous' component={Project}/>
             <Route path='/private-art-instruction' component = {Instruction}/>
-            <Route exact path='/about' component={About}/>
             <Route exact path='/under-construction' component={UnderConstruction}/>
             <Route path='/contact' component={Contact}/>
           </Switch>

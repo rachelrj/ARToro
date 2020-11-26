@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import { Provider, connect } from 'react-redux';
@@ -110,7 +110,7 @@ class Contact extends React.Component {
                     <h1>Thank You!</h1>
                     <div id="contact-content">
                         <p>I appreciate that you’ve taken the time to write me. I will get back to you as soon as possible, usually within a few days. I will respond to you through my business gmail using the email address you just provided.</p>
-                         <p>While you are waiting ever so patiently for my reply, take a look at my <a href="https://www.instagram.com/toro4art/" target="_blank">Instagram page</a> to see more examples I have done for others in the past. I plan to share some fun highlights of my teaching very soon!</p>
+                         <p>While you are waiting ever so patiently for my reply, take a look at my <a href="https://www.instagram.com/toro4art/" target="_blank" rel="noreferrer">Instagram page</a> to see more examples I have done for others in the past. I plan to share some fun highlights of my teaching very soon!</p>
                     </div>
                     </>
                 }

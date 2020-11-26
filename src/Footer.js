@@ -30,7 +30,7 @@ class Footer extends React.Component {
                     <span id="popl">
                         toro4art proudly supports <a href="http://popb.org/" target="_blank">Plenty of Pitbulls Organization</a>
                     </span>
-                        <a href="http://popb.org/" target="_blank"><img id="pop" src={pop}/></a>
+                        <a href="http://popb.org/" target="_blank" rel="noreferrer"><img id="pop" src={pop}/></a>
                     </div>
                 <span id="right">
                      <span>
@@ -39,7 +39,7 @@ class Footer extends React.Component {
                          </a>
                     </span>
                     <span>
-                        <a href="https://www.instagram.com/toro4art/" target="_blank">
+                        <a href="https://www.instagram.com/toro4art/" target="_blank" rel="noreferrer">
                             <img src={insta}/>
                         </a>
                     </span>
@@ -47,9 +47,9 @@ class Footer extends React.Component {
                 </div>
                 <div id="charity-support-footer-mobile">
                     <span id="popl">
-                        toro4art proudly supports <a href="http://popb.org/" target="_blank">Plenty of Pitbulls Organization</a>
+                        toro4art proudly supports <a href="http://popb.org/" target="_blank" rel="noreferrer">Plenty of Pitbulls Organization</a>
                     </span>
-                    <a href="http://popb.org/" target="_blank"><img id="pop" src={pop}/></a>
+                    <a href="http://popb.org/" target="_blank" rel="noreferrer"><img id="pop" src={pop}/></a>
                 </div>
             </div>
         );
