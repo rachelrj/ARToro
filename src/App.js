@@ -4,7 +4,6 @@ import Homepage from './Homepage';
 import Project from './Project';
 import Instruction from './Instruction';
 import Contact from './Contact';
-import UnderConstruction from './UnderConstruction';
 import {Provider} from "react-redux";
 import store from "./redux/store";
 
@@ -27,7 +26,6 @@ class App extends React.Component {
             <Route path='/commissions/watercolor' component={Project}/>
             <Route path='/commissions/miscellaneous' component={Project}/>
             <Route path='/private-art-instruction' component = {Instruction}/>
-            <Route exact path='/under-construction' component={UnderConstruction}/>
             <Route path='/contact' component={Contact}/>
           </Switch>
         </Provider>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import img from './img/art-toro-logo.png';
+import img from './img/toro4art-logo.png';
 
 class Header extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class Header extends React.Component {
             <React.Fragment>
             <Navbar bg="light" expand="lg">
               <Navbar.Brand href="/">
-                      <img id="header-logo" src={img} weight="40" height="80"/>
+                      <img id="header-logo" src={img} weight="40" height="80" alt="Toro4Art logo"/>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">

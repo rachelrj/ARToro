@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-    <loc>https://artoro.herokuapp.com/</loc>
+    <loc>https://toro4art.com</loc>
     <lastmod>2020-11-01</lastmod>
   </url>
   <url>
-    <loc>https://artoro.herokuapp.com/portfolio/commissions</loc>
+    <loc>https://toro4art.com/commissions/watercolor</loc>
+    <lastmod>2020-12-01</lastmod>
+  </url>
+  <url>
+    <loc>https://toro4art.com/commissions/oil</loc>
+    <lastmod>2020-12-01</lastmod>
+  </url>
+  <url>
+    <loc>https://toro4art.com/commissions/miscellaneous</loc>
+    <lastmod>2020-12-01</lastmod>
+  </url>
+  <url>
+    <loc>https://toro4art.com/private-art-instruction</loc>
     <lastmod>2020-11-01</lastmod>
   </url>
   <url>
-    <loc>https://artoro.herokuapp.com/portfolio/oil</loc>
-    <lastmod>2020-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://artoro.herokuapp.com/portfolio/watercolor</loc>
-    <lastmod>2020-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://artoro.herokuapp.com/portfolio/miscellaneous</loc>
-    <lastmod>2020-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://artoro.herokuapp.com/about</loc>
-    <lastmod>2020-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://artoro.herokuapp.com/contact</loc>
+    <loc>https://toro4art.com/contact</loc>
     <lastmod>2020-11-01</lastmod>
   </url>
 </urlset>
