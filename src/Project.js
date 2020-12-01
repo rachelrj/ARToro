@@ -61,7 +61,7 @@ class Project extends React.Component {
                 <div className="projectPage">
                     {artPieces}
                 </div>
-                <p id="checkout-instagram">Check out more art at <a href="https://www.instagram.com/toro4art/" target="_blank" rel="noreferrer">@Toro4art on Instagram</a></p>
+                <p id="checkout-instagram">Check out more art at <a className="tiffany" href="https://www.instagram.com/toro4art/" target="_blank" rel="noreferrer">@Toro4art on Instagram</a></p>
                 <Footer/>
             </Provider>
         );

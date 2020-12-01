@@ -6,6 +6,10 @@
     font-family: 'Futura Book';
     src: url('Futura-Book-Regular.otf')  format("opentype");
 }
+a.tiffany {
+    color: #96f1e0;
+    text-shadow: 1px 1px grey;
+}
 .App {
     text-align: center;
     font-family: 'Futura Book', sans-serif;

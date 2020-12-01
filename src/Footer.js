@@ -5,7 +5,7 @@ import pop from "./img/pop.jpg";
 
 class Footer extends React.Component {
     render() {
-    const POPhtml = <><span id="popl">toro4art proudly supports <a href="http://popb.org/" target="_blank" rel="noreferrer">Plenty of Pitbulls Organization</a></span><a href="http://popb.org/" target="_blank" rel="noreferrer"><img id="pop" src={pop} alt="Plenty of Pitbulls Organization logo"/></a></>;
+    const POPhtml = <><span id="popl">toro4art proudly supports <a className="tiffany" href="http://popb.org/" target="_blank" rel="noreferrer">Plenty of Pitbulls Organization</a></span><a href="http://popb.org/" target="_blank" rel="noreferrer"><img id="pop" src={pop} alt="Plenty of Pitbulls Organization logo"/></a></>;
         return (
             <div className="footer">
                 <div id="footer-top">
