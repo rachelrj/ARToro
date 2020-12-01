@@ -121,7 +121,10 @@ h1 {
 }
 @media (max-width: 600px) {
     h1 {
-        font-size: 2.5em;
+        font-size: 2.0em;
+    }
+    #homepage-content, #instruction-content, #checkout-instagram {
+        font-size: 1em
     }
     .instruction {
         display: block;
@@ -251,7 +254,6 @@ hr {
         display: inline;
         margin: 20px;
         max-width: 280px;
-        max-height: 280px;
     }
     #charity-support-footer-desktop {
         display: none;
@@ -271,7 +273,6 @@ hr {
         display: inline;
         margin: 20px;
         max-width: 400px;
-        max-height: 400px;
     }
     #charity-support-footer-mobile {
         display: none;
