@@ -9,7 +9,7 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <div id="footer-top">
-                <span id="left">
+                <span className="left">
                     <span>
                         © 2020 by toro4art
                     </span>
@@ -17,7 +17,7 @@ class Footer extends React.Component {
                     <div id="charity-support-footer-desktop">
                     {POPhtml}
                     </div>
-                <span id="right">
+                <span className="right">
                      <span>
                          <a href="mailto:toro4art@gmail.com?subject=Regarding Artwork by Lexi Toro">
                             <img src={email} alt="Email icon to contact Alexis Toro"/>

@@ -10,6 +10,9 @@ a.tiffany {
     color: #96f1e0;
     text-shadow: 1px 1px grey;
 }
+.navbar, .navbar-expand-lg, .avbar-light, .bg-light, .footer{
+    background-color: rgb(150,241,224,.25) !important;
+}
 .App {
     text-align: center;
     font-family: 'Futura Book', sans-serif;
@@ -83,7 +86,8 @@ h1 {
 }
 #instruction-content {
     font-size: 1.2em;
-    margin: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -101,8 +105,8 @@ h1 {
     width: 50%;
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 25px;
     display: block;
-    font-size: .9em;
 }
 #overflow {
     overflow: auto;
@@ -123,7 +127,7 @@ h1 {
         height: 40px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     h1 {
         font-size: 2.0em;
     }
@@ -132,26 +136,29 @@ h1 {
     }
     .instruction {
         display: block;
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
     #instruction-content img {
         max-width: 250px;
         max-width: 90%;
+        margin-top: 20px;
     }
     #instruction-content p {
         margin-top: 40px;
     }
     #instruction-content {
         font-size: 1em;
-        margin: 25px;
+        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     #instruction-photo-note {
         width: 75%;
     }
 }
 body {
-    background: url('img/cardboard-transparent.png');
+/*    background: url('img/cardboard-transparent.png');*/
     background-size: 100% 100%;
 }
 .artSample {
@@ -202,10 +209,10 @@ form button {
 p {
     text-align: left;
 }
-#left {
+.left {
     float: left;
 }
-#right {
+.right {
     float: right;
 }
 h2 {
@@ -222,7 +229,6 @@ hr {
 }
 .footer {
     height: 250px;
-    background-color: #f8f9fa;
     display: block;
     clear: both;
     padding: 50px;

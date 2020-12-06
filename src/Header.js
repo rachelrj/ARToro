@@ -8,7 +8,7 @@ class Header extends React.Component {
         const classes = "header " + this.props.additionalClass;
         return (
             <React.Fragment>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
               <Navbar.Brand href="/">
                       <img id="header-logo" src={img} weight="40" height="80" alt="Toro4Art logo"/>
               </Navbar.Brand>

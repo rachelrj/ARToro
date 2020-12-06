@@ -7,12 +7,6 @@ import getComponents from "./redux/reducer";
 
 class Project extends React.Component {
 
-    componentDidMount() {
-    }
-
-    componentWillMount() {
-    }
-
     getArtType() {
         const pathname = this.props.location.pathname;
         const pathNames = pathname.split('/');
