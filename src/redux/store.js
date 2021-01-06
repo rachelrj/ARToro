@@ -24,8 +24,8 @@ initialState[STORETYPES[0]] = [{
 },{
     'id': 3,
     'title': 'Cinnamon',
-    'img': '../img/cinnamon-oil.png',
-    'size': '',
+    'img': '../img/cinnamon-oil-2.jpg',
+    'size': '18x24 Inches',
     'status': 'Sold'
 },{
     'id': 4,
@@ -38,6 +38,18 @@ initialState[STORETYPES[0]] = [{
     'title': "Long's peak from Longmont",
     'img': '../img/watercolor-painting-2.png',
     'size': '',
+    'status': 'Sold'
+}, {
+    'id': 6,
+    'title': "Juan Deer",
+    'img': '../img/juan-deer.jpg',
+    'size': '24x24 Inches',
+    'status': 'Sold'
+},{
+    'id': 7,
+    'title': "Tally and Landis",
+    'img': '../img/tally_landis.jpg',
+    'size': '12x16 Inches',
     'status': 'Sold'
 }];
 initialState[STORETYPES[1]] = [{
@@ -80,8 +92,20 @@ initialState[STORETYPES[2]] = [{
 },{
     'id': 3,
     'title': 'Cinnamon',
-    'img': '../img/cinnamon-oil.png',
-    'size': '',
+    'img': '../img/cinnamon-oil-2.jpg',
+    'size': '18x24 Inches',
+    'status': 'Sold'
+}, {
+    'id': 4,
+    'title': "Juan Deer",
+    'img': '../img/juan-deer.jpg',
+    'size': '24x24 Inches',
+    'status': 'Sold'
+},{
+    'id': 5,
+    'title': "Tally and Landis",
+    'img': '../img/tally_landis.jpg',
+    'size': '12x16 Inches',
     'status': 'Sold'
 }];
 initialState[STORETYPES[3]] = [{
