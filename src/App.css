@@ -81,7 +81,10 @@ h1 {
     margin-bottom: 25px;
 }
 #homepage-content, #contact-content {
-    margin: 100px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 750px;
     font-size: 1.2em;
 }
 #instruction-content {
@@ -120,9 +123,6 @@ h1 {
     max-width: 80%;
 }
 @media (max-width: 500px) {
-    #homepage-content, #contact-content {
-        margin: 40px;
-    }
     #header-logo {
         height: 40px;
     }
@@ -256,9 +256,12 @@ hr {
 }
 @media (min-width: 0px) {
     .lexi {
-        height: 150px;
+        height: 200px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    #long-lexi {
+        height: 315px;
     }
     img.artPiece {
         display: inline;
@@ -271,6 +274,10 @@ hr {
     #charity-support-footer-mobile {
         display: inline-block;
     }
+    #homepage-content, #contact-content {
+        width: 300px;
+        font-size: 1.2em;
+    }
 
 }
 @media (min-width: 650px) {
@@ -278,6 +285,13 @@ hr {
         height: 400px;
         padding-left: 25px;
         padding-right: 25px;
+    }
+    #long-lexi {
+        height: 450px;
+    }
+    #homepage-content, #contact-content {
+        width: 500px;
+        font-size: 1.2em;
     }
     img.artPiece {
         display: inline;
@@ -296,6 +310,16 @@ hr {
     }
 }
 @media (min-width: 900px) {
+    .lexi {
+        height: 500px;
+    }
+    #long-lexi {
+        height: 700px;
+    }
+    #homepage-content, #contact-content {
+        width: 750px;
+        font-size: 1.2em;
+    }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 2rem;
         padding-left: 2rem;
