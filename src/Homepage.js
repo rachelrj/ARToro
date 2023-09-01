@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
-import img from './img/Alexis-Toro-Artist-Horse-Montana.JPG';
-import img2 from './img/Alexis-Toro-Artist-Horse-Montana-2.JPG';
+import img from './img/Alexis-Toro-Artist-Horse-Montana.jpg';
+import img2 from './img/Alexis-Toro-Artist-Horse-Montana-2.jpg';
 import { Provider } from 'react-redux';
 import store from "./redux/store";
 import {connect} from "react-redux";
