@@ -11,11 +11,11 @@ let initialState = {};
 
 initialState[STORETYPES[0]] = [{
     'id': 1,
-    'title': 'Ziggy the Piggy',
-    'img': '../img/ziggy-the-piggy-oil.png',
-    'size': '8x10 Oval Canvas',
+    'title': 'Mocha',
+    'img': '../img/Mocha.png',
+    'size': '8”x10” Oval',
     'status': 'Sold'
-}, {
+},{
     'id': 2,
     'title': 'Landscape',
     'img': '../img/oil-painting-1.png',
@@ -24,7 +24,7 @@ initialState[STORETYPES[0]] = [{
 },{
     'id': 3,
     'title': 'Cinnamon',
-    'img': '../img/cinnamon-oil-2.jpg',
+    'img': '../img/cinnamon.jpg',
     'size': '18x24 Inches',
     'status': 'Sold'
 },{
@@ -55,13 +55,13 @@ initialState[STORETYPES[0]] = [{
 initialState[STORETYPES[1]] = [{
     'id': 2,
     'title': 'Brainard Lake',
-    'img': '../img/watercolor-donation.png',
+    'img': '../img/watercolor-donation.jpg',
     'size': 'Donation to Plenty of',
     'status': 'Pitbulls Auction'
 },{
     'id': 3,
     'title': 'Elk Mountain',
-    'img': '../img/watercolor-painting-1.png',
+    'img': '../img/watercolor-1.jpg',
     'size': '8x10',
     'status': 'Sold'
 },{
@@ -78,21 +78,21 @@ initialState[STORETYPES[1]] = [{
     'status': 'Sold'
 }];
 initialState[STORETYPES[2]] = [{
-    'id': 1,
-    'title': 'Ziggy the Piggy',
-    'img': '../img/ziggy-the-piggy-oil.png',
-    'size': '8x10 Oval Canvas',
-    'status': 'Sold'
-}, {
     'id': 2,
     'title': 'Landscape',
-    'img': '../img/oil-painting-1.png',
+    'img': '../img/oil-painting-1.jpg',
     'size': '18x24',
+    'status': 'Sold'
+},{
+    'id': 1,
+    'title': 'Mocha',
+    'img': '../img/Mocha.png',
+    'size': '8”x10” Oval',
     'status': 'Sold'
 },{
     'id': 3,
     'title': 'Cinnamon',
-    'img': '../img/cinnamon-oil-2.jpg',
+    'img': '../img/cinnamon.jpg',
     'size': '18x24 Inches',
     'status': 'Sold'
 }, {

@@ -15,10 +15,9 @@ class Header extends React.Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <NavDropdown title="Commissions">
+                    <NavDropdown title="Paintings">
                         <NavDropdown.Item href="/commissions/watercolor">Watercolor</NavDropdown.Item>
                         <NavDropdown.Item href="/commissions/oil">Oil</NavDropdown.Item>
-                        <NavDropdown.Item href="/commissions/miscellaneous">Miscellaneous</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/private-art-instruction">Private Art Instruction</Nav.Link>
                     <Nav.Link href="/contact">Contact</Nav.Link>
