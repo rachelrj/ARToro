@@ -16,7 +16,7 @@ class Homepage extends React.Component {
                 <Header additionalClass="main-header"/>
                 <h1>Artwork by Alexis R. Toro</h1>
                 <img class="lexi" src={img}/>
-                <div>Photo Credit Quinn Stone</div>
+                <div>Photo Credit <a href="https://www.quinnstonephoto.com/" target="_blank"> Quinn Stone</a></div>
                 <div id="homepage-content">
                 
                 <p>Howdy!</p>
@@ -29,7 +29,7 @@ class Homepage extends React.Component {
                 <p>Additionally, I love to paint watercolor scenes, typically plein air, whenever my husband and I are out and about on an adventure.</p>
                 <p>Please reach out via my contact page or DM to inquire about buying originals, setting up private art lessons, or commissioning an original painting for yourself or a loved one. </p>
                 <img class="lexi" id="long-lexi" src={img2}/>
-                <div>Photo Credit Quinn Stone</div>
+                <div>Photo Credit <a href="https://www.quinnstonephoto.com/" target="_blank"> Quinn Stone</a></div>
 
                 </div>
                 <Footer/>
