@@ -67,16 +67,22 @@ initialState[STORETYPES[1]] = [{
 },{
     'id': 3,
     'title': 'Waterlogged',
-    'img': '../img/watercolor-painting-3.png',
+    'img': '../img/waterlogged.jpeg',
     'size': '6x12',
-    'status': 'Sold'
+    'status': 'For Sale'
 },{
     'id': 1,
     'title': "Long's peak from Longmont",
     'img': '../img/watercolor-painting-2.jpg',
     'size': '',
     'status': 'Sold'
-}];
+},{
+    'id': 3,
+    'title': 'Marvine Lakes',
+    'img': '../img/watercolor-painting-4.jpeg',
+    'size': '6x12',
+    'status': 'For Sale'
+},];
 initialState[STORETYPES[2]] = [{
     'id': 2,
     'title': 'Landscape',
