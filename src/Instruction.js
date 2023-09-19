@@ -17,13 +17,13 @@ class Instruction extends React.Component {
             <Provider store = {store}>
                 <Header additionalClass="main-header"/>
                 <h1>Private Art Instruction</h1>
-                <div id="instruction-content">
+                <div class="instruction-content">
                     <div id="overflow">
                         <span className="left instruction">
                             <img src={lexiToroImage} alt="Alexis Toro, private art instructor"/>
                         </span>
                         <span className="right instruction">
-                            <p>I am a certified art teacher in Kindergarten through 12th grade. I earned my masters degree in Art Education at Florida State University in 2016. My teaching career spans over five years in which I have taught elementary, middle, and high school. In 2020 I began privately tutoring adults and children.  While my focus is primarily painting, I tutor in any visual arts form of your choice including drawing, painting, ceramics, etc.</p>
+                            <p>I am a certified Pre-K-12th grade art teacher in the state of Montana and Colorado. I earned my Masters degree in Art Education at Florida State University in 2016. My teaching career spans over seven years in which I have taught elementary, middle, and high school. In 2020 I began privately tutoring adults and children. While my focus is primarily painting, I tutor in any visual arts form of your choice including drawing, oil, acrylic, and watercolor painting, as well as basic book binding.</p>
                         </span>
                     </div>
                     <div id="overflow">
@@ -34,11 +34,11 @@ class Instruction extends React.Component {
                         <p className="instruction left">There are many advantages to private art tutoring. Art making has therapeutic benefits and promotes mental health and well being. Private art tutoring also can improve a portfolio for an art school application. Private art tutoring can also be a way to create a sentimental and personalized gift for a loved one.  I  will work with you to address your specific needs and create an individualized plan to pursue you or your child’s goals as an artist. </p>
                     </div>
                 </div>
-                <div id="instruction-content">
+                <div className="instruction-content">
                     <img src={studentSample2} alt="Art done by a student of Alexis Toro. The student drew a bird made of pencils."/>
                     <span id="instruction-photo-note">Artwork done by a student of mine. The students "relaxed and kicked their shoes off" and drew pictures in graphite</span>
                 </div>
-                <div id="instruction-content">
+                <div className="instruction-content">
                     <div id="overflow">
                         <span className="left instruction">
                             <img src={student1} alt="Home school private art instruction by Alexis Toro"/>
@@ -49,6 +49,8 @@ class Instruction extends React.Component {
                     </div>
                     <span id="instruction-photo-note">Photos from a home school private art instruction class. The girls are extremely proud of their work!</span>
                 </div>
+                <hr className="dotted"></hr>
+                <p className="instruction-content">Tutoring is done in your home with whatever materials you wish to provide. I will provide a preferred shopping list upon request. I am located in Frenchtown, but I do travel to Missoula and surrounding areas. Please inquire for pricing. </p>
                 <Footer/>
             </Provider>
         );

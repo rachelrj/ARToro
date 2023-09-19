@@ -87,14 +87,14 @@ h1 {
     width: 750px;
     font-size: 1.2em;
 }
-#instruction-content {
+.instruction-content {
     font-size: 1.2em;
     margin-bottom: 50px;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
-#instruction-content p {
+.instruction-content p {
     margin-top: 70px;
     text-align: center;
 }
@@ -131,7 +131,7 @@ h1 {
     h1 {
         font-size: 2.0em;
     }
-    #homepage-content, #instruction-content, #checkout-instagram {
+    #homepage-content, .instruction-content, #checkout-instagram {
         font-size: 1em
     }
     .instruction {
@@ -139,15 +139,15 @@ h1 {
         width: 100%;
         margin: auto;
     }
-    #instruction-content img {
+    .instruction-content img {
         max-width: 250px;
         max-width: 90%;
         margin-top: 20px;
     }
-    #instruction-content p {
+    .instruction-content p {
         margin-top: 40px;
     }
-    #instruction-content {
+    .instruction-content {
         font-size: 1em;
         margin: 20px;
         margin-top: 30px;
@@ -160,6 +160,10 @@ h1 {
 body {
 /*    background: url('img/cardboard-transparent.png');*/
     background-size: 100% 100%;
+}
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
 }
 .artSample {
     position: relative;
