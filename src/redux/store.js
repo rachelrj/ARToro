@@ -67,7 +67,7 @@ initialState[STORETYPES[1]] = [{
 },{
     'id': 3,
     'title': 'Waterlogged',
-    'img': '../img/waterlogged.jpeg',
+    'img': '../img/waterlogged.jpg',
     'size': '6x12',
     'status': 'For Sale'
 },{
@@ -79,7 +79,7 @@ initialState[STORETYPES[1]] = [{
 },{
     'id': 3,
     'title': 'Marvine Lakes',
-    'img': '../img/watercolor-painting-4.jpeg',
+    'img': '../img/watercolor-painting-4.jpg',
     'size': '6x12',
     'status': 'For Sale'
 },];
