@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-artoro-dev-190243-authRole",
+      "UnauthRoleArn": "arn:aws:iam::113365400202:role/amplify-artoro-dev-190243-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::113365400202:role/amplify-artoro-dev-190243-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-artoro-dev-190243-deployment",
+      "UnauthRoleName": "amplify-artoro-dev-190243-unauthRole",
+      "StackName": "amplify-artoro-dev-190243",
+      "StackId": "arn:aws:cloudformation:us-west-2:113365400202:stack/amplify-artoro-dev-190243/ce6a5bb0-ce01-11ee-bcb1-02a5ecf216fb",
+      "AmplifyAppId": "d3vqia3nx8xgn1"
+    },
+    "categories": {
+      "function": {
+        "artoro": {
+          "deploymentBucketName": "amplify-artoro-dev-190243-deployment",
+          "s3Key": "amplify-builds/artoro-707232447551376d3751-build.zip"
+        }
+      },
+      "api": {
+        "artoroapi": {}
+      }
+    }
+  }
+}
