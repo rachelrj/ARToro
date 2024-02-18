@@ -1,0 +1,43 @@
+{
+  "api": {
+    "artoroapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "artoro"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "artoro": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_artoro_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "artoro"
+        }
+      ]
+    },
+    "AMPLIFY_function_artoro_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "artoro"
+        }
+      ]
+    }
+  }
+}
