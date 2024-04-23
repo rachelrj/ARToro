@@ -4,7 +4,7 @@ import Header from "./Header";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import { connect } from "react-redux";
-import lexiToroImage from "./img/Alexis-Toro-Art-Instruction.jpeg";
+import lexiToroImage from "./img/Alexis-Toro-Art-Instruction.jpg";
 import studentSample1 from "./img/student-sample-1.jpg";
 import studentSample2 from "./img/student-sample-2.jpg";
 import student1 from "./img/alexis-toro-art-instruction-students1.jpg";
