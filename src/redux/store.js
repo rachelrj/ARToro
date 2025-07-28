@@ -92,18 +92,11 @@ initialState[STORETYPES[1]] = [
 ];
 initialState[STORETYPES[2]] = [
   {
-    id: 7,
+    id: 1,
     title: "Rib Breaker",
     img: "../img/Laredo.jpg",
     size: "18x24 Inches",
     status: "For Sale",
-  },
-  {
-    id: 1,
-    title: "Mocha",
-    img: "../img/Mocha.png",
-    size: "8”x10” Oval",
-    status: "Sold",
   },
   {
     id: 3,
