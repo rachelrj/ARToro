@@ -133,6 +133,13 @@ initialState[STORETYPES[2]] = [
     size: "8”x10” Oval",
     status: "Sold",
   },
+  {
+    id: 7,
+    title: "Tail Earnhardt",
+    img: "../img/Earnhardt.jpg",
+    size: "12”x16” Oval",
+    status: "For Sale",
+  },
 ];
 initialState[STORETYPES[3]] = [
   {
